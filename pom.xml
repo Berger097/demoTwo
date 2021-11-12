@@ -1,0 +1,34 @@
+<? xml version = " 1.0 " encoding = " UTF-8 " ?>
+< проект  xmlns = " http://maven.apache.org/POM/4.0.0 "
+         xmlns : xsi = " http://www.w3.org/2001/XMLSchema-instance "
+         xsi : schemaLocation = " http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd " >
+    < версия модели > 4.0.0 </ версия модели >
+
+    < groupId > ru.netology </ groupId >
+    < artifactId > demoTwo </ artifactId >
+    < версия > 1.0-SNAPSHOT </ версия >
+
+    < свойства >
+        < maven .compiler.source> 11 </ maven .compiler.source>
+        < maven .compiler.target> 11 </ maven .compiler.target>
+    </ свойства >
+
+    < зависимости >
+        < зависимость >
+            < groupId > org.junit.jupiter </ groupId >
+            < artifactId > junit-jupiter </ artifactId >
+            < версия > 5.4.2 </ версия >
+            < область > тест </ область >
+        </ зависимость >
+    </ зависимости >
+
+    < сборка >
+        < плагины >
+            < плагин >
+                < groupId > org.apache.maven.plugins </ groupId >
+                < artifactId > maven-surefire-plugin </ artifactId >
+                < версия > 2.22.2 </ версия >
+            </ плагин >
+        </ плагины >
+    </ build >
+</ проект >
